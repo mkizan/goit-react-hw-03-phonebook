@@ -1,0 +1,26 @@
+.list {
+  width: 400px;
+  padding: 0;
+}
+
+.list__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.btn {
+  padding: 3px 10px;
+  font-weight: 600;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+
+  &:hover,
+  &:active {
+    background-color: #0a9afa99;
+  }
+}
